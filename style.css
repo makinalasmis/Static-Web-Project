@@ -1,0 +1,84 @@
+/* Genel Ayarlar */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Sayfa içeriği için kapsayıcı */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+/* Üst kısım */
+header {
+  background-color: #1e1e2f;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Navigasyon menüsü */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Bölüm alanı */
+.section {
+  padding: 40px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Alt bilgi */
+footer {
+  background-color: #1e1e2f;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+}
+
+/* Büyük ekranlar için düzenlemeler */
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 32px;
+  }
+
+  nav a {
+    font-size: 18px;
+  }
+
+  .section {
+    padding: 60px 0;
+  }
+
+  footer {
+    font-size: 16px;
+  }
+}
